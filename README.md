@@ -47,7 +47,7 @@
 
 ```
 PureXAI/
-├── backend/                  # FastAPI Backend (Devanand)
+├── backend/                  # FastAPI Backend 
 │   ├── main.py               # Application entry point + APScheduler
 │   ├── database.py           # SQLAlchemy SQLite engine (WAL mode)
 │   ├── models.py             # ORM models (SensorReading, SensorHealth, Alert)
@@ -65,11 +65,11 @@ PureXAI/
 │       ├── alert_service.py  # Alert creation, deduplication & resolution
 │       └── disconnection.py  # ESP32 Wi-Fi drop detector
 ├── esp32/
-│   └── README.md             # ESP32 integration guide (Barath)
+│   └── README.md             # ESP32 integration guide 
 ├── dashboard/
-│   └── README.md             # Streamlit dashboard guide (Jai Surya)
+│   └── README.md             # Streamlit dashboard guide
 ├── ai/
-│   └── README.md             # AI / ML analysis guide (Jai Surya)
+│   └── README.md             # AI / ML analysis guide
 ├── data/
 │   └── purexai.db            # Local SQLite database (auto-generated)
 ├── .env.example              # Environment variables template
