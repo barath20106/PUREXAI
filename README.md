@@ -4,16 +4,6 @@
 
 ---
 
-## 👥 Team & Responsibilities
-
-| Team Member | Module | Key Responsibilities |
-| :--- | :--- | :--- |
-| **Barath** | **Hardware & ESP32** | TDS, Turbidity, DS18B20 Sensors, OLED Display, Buzzer & LEDs, Wi-Fi HTTP Transmission |
-| **Devanand** | **Backend & Database & Alerts** | FastAPI Backend, SQLite Database, Threshold Engine, Sensor Health & Disconnection Monitoring, REST APIs |
-| **Jai Surya** | **Dashboard & AI Analysis** | Streamlit UI, Live & Historical Visualizations, Anomaly Detection, Filter-Health Degradation, Maintenance Reports |
-
----
-
 ## 🏛️ System Architecture
 
 ```
