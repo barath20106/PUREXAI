@@ -181,7 +181,7 @@ alerts = requests.get(f"{BASE_URL}/api/alerts", params={"is_resolved": False}).j
 
 ---
 
-## Integration with ESP32 (Barath's Work)
+## Integration with ESP32 
 
 Point the ESP32 HTTP POST to:
 ```
