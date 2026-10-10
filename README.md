@@ -99,36 +99,7 @@ All thresholds are centralized in `backend/config.py`:
 
 ---
 
-## 🚀 Quick Start — Running the Backend
 
-### 1. Install Dependencies
-```bash
-cd backend
-pip install -r requirements.txt
-```
-
-### 2. Start FastAPI Server
-```bash
-python main.py
-```
-- **API Base URL**: `http://localhost:8000`
-- **Interactive Swagger Documentation**: `http://localhost:8000/docs`
-- **ReDoc Documentation**: `http://localhost:8000/redoc`
-
----
-
-## 🧪 Automated Testing with Simulated Data
-
-Before connecting physical hardware, run the comprehensive simulation test suite:
-```bash
-cd backend
-python test_simulation.py
-```
-This tests:
-1. Server liveness (`GET /api/ping`)
-2. Payload validation (rejection of negative numbers, NaNs, malformed bodies)
-3. Safe water-quality ingestion
-4. Threshold violations (TDS, Turbidity, Temperature) and alert generation
 5. Alert deduplication (cooldown suppression)
 6. Sensor health tracking and 30-second offline timeout
 7. ESP32 disconnection detection (`DEVICE_OFFLINE`)
