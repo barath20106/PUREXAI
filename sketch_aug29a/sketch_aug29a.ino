@@ -25,8 +25,8 @@
 // ROUTER WIFI
 // ================================================================
 
-const char* WIFI_SSID = "ACT-ai_BarathKumar_4G";
-const char* WIFI_PASSWORD = "Home02102024";
+const char* WIFI_SSID = "wifiname";
+const char* WIFI_PASSWORD = "wifipassword";
 
 
 // ================================================================
@@ -36,20 +36,6 @@ const char* WIFI_PASSWORD = "Home02102024";
 const char* AP_SSID = "PUREXAI_WATER";
 const char* AP_PASSWORD = "PUREXAI123";
 
-
-// ================================================================
-// FASTAPI BACKEND
-// ================================================================
-//
-// Barath/Jai Surya laptop:
-// 192.168.0.7
-//
-// FastAPI:
-// port 8000
-//
-// API:
-// /api/sensor-data
-//
 
 const char* SERVER_URL =
   "http://192.168.0.7:8000/api/sensor-data";
@@ -82,10 +68,10 @@ const char* DEVICE_ID =
 // ================================================================
 
 const char* TELEGRAM_BOT_TOKEN =
-  "8486406920:AAF97Evla19c8P-M2vuuEev5BXkXhzyC7Jk";
+  "000000000";
 
 const char* TELEGRAM_CHAT_ID =
-  "8984581344";
+  "000000000";
 
 
 // Telegram connection status
