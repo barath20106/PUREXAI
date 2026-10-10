@@ -4,7 +4,7 @@
 
 Continuous checking of selected water-quality indicators and filter condition can help in making maintenance decisions at public drinking-water facilities. This paper presents PUREXAI, an AI-enabled IoT framework for continuous sensing, data transmission, filter-state assessment, remaining filter-life estimation, operational risk scoring, and alerting. The prototype uses an ESP32 controller along with sensors for total dissolved solids (TDS), turbidity, and water temperature. The measurements are transmitted through Wi-Fi, stored for analysis, and displayed on a monitoring dashboard. Random Forest models are used for filter-state classification and remaining-life estimation, while the Water Quality Risk Score (WQRS) combines sensor changes, estimated filter condition, and short-term deterioration trends for operational prioritization. Local warnings are provided through an OLED display and buzzer, with tap-specific information available through a QR-based interface. In the completed prototype evaluation, the filter-state classifier achieved 97.01% accuracy and a weighted F1-score of 0.968, the remaining-life model achieved a mean absolute error (MAE) of 2.8 days, the operational risk classifier achieved an F1-score of 0.93, and the measured mean alert latency was 2.1 seconds across 100 alert events. These results support the technical feasibility of the integrated prototype under the tested conditions; however, they do not establish certification of drinking-water safety or demonstrate superiority over a controlled baseline. 
 
-Keywords—Artificial Intelligence, IoT, ESP32, Water Quality Monitoring, Predictive Maintenance, Filter Health Index, Water Quality Risk Score, Smart Dashboard.
+
 ---
 
 
